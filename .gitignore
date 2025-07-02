@@ -1,0 +1,61 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+env/
+
+# MLX/Model files
+*.safetensors
+*.bin
+*.gguf
+*.ggml
+models/
+checkpoints/
+adapters/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+logs/
+
+# Temporary
+tmp/
+temp/
+cache/
+
+# Large data files
+*.npy
+*.npz
+*.h5
+*.pkl
+*.pickle
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Documentation build
+docs/_build/
+site/
+
+# Secrets
+.env
+secrets/
+*.key
+*.pem
