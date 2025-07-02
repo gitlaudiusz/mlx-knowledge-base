@@ -90,6 +90,49 @@ Klaudiusz/
 └── CLAUDE.md              # This file
 ```
 
+## Team Collaboration Rules
+
+### Git Workflow
+- **ALWAYS create feature branches** for any work
+- Branch naming: `feat/description`, `fix/issue`, `docs/update`
+- Never push directly to main/master
+- Create PRs for review
+
+### Team Consultation
+For PRs representing LibraxisAI (not just personal experiments):
+- **Consult with team BEFORE major PRs**
+- Team members:
+  - Maciej (@Szowesgad) - Team Lead
+  - Monika (@m-szymanska)
+  - Bartosz (@bthink)
+- Use Discord/Slack for quick consultations
+- Tag team in PR descriptions for visibility
+
+### PR Guidelines
+```bash
+# Create feature branch
+git checkout -b feat/new-mlx-feature
+
+# Work on changes
+git add .
+git commit -m "feat: add new MLX optimization"
+
+# Push to origin
+git push -u origin feat/new-mlx-feature
+
+# Create PR on GitHub with description:
+# - What changes were made
+# - Why they're needed
+# - Testing performed
+# - Tag team members if needed
+```
+
+### Representing LibraxisAI
+- Professional communication in public repos
+- Consider impact on team reputation
+- Document decisions and rationale
+- Be collaborative, not solo
+
 ## Communication Style
 - Mix of Polish and English (code-switching natural)
 - Technical but accessible
